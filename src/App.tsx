@@ -1,7 +1,15 @@
-import { Button } from 'antd';
+import AppRoutes from './components/AppRoutes';
+import { Header } from './components/Header';
 
 function App() {
-  return <Button type="primary">Hello</Button>;
+  return (
+    <>
+      <Header />
+      <main>
+        <AppRoutes />
+      </main>
+    </>
+  );
 }
 
 export default App;
