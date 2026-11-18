@@ -1,0 +1,65 @@
+[
+  {
+    "image": "https://i.pinimg.com/736x/7f/d8/91/7fd89109d755f6fdae6bb95e15e82696.jpg",
+    "title": "Первая карточка",
+    "subtitle": "Короткое описание первой карточки",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+    "created_at": "2026-11-01"
+  },
+  {
+    "image": "https://avatars.mds.yandex.net/i?id=ffc1262550c7daf547d26c79291d5d81_l-5247746-images-thumbs&n=13",
+    "title": "Вторая карточка",
+    "subtitle": "Короткое описание второй карточки",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+    "created_at": "2026-11-05"
+  },
+  {
+    "image": "https://cdn1.ozone.ru/s3/multimedia-c/c600/6424665408.jpg",
+    "title": "Третья карточка",
+    "subtitle": "Короткое описание третьей карточки",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+    "created_at": "2026-11-10"
+  },
+  {
+    "image": "https://i.pinimg.com/736x/7f/d8/91/7fd89109d755f6fdae6bb95e15e82696.jpg",
+    "title": "Первая карточка",
+    "subtitle": "Короткое описание первой карточки",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+    "created_at": "2026-11-01"
+  },
+  {
+    "image": "https://avatars.mds.yandex.net/i?id=ffc1262550c7daf547d26c79291d5d81_l-5247746-images-thumbs&n=13",
+    "title": "Вторая карточка",
+    "subtitle": "Короткое описание второй карточки",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+    "created_at": "2026-11-05"
+  },
+  {
+    "image": "https://cdn1.ozone.ru/s3/multimedia-c/c600/6424665408.jpg",
+    "title": "Третья карточка",
+    "subtitle": "Короткое описание третьей карточки",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+    "created_at": "2026-11-10"
+  },
+  {
+    "image": "https://i.pinimg.com/736x/7f/d8/91/7fd89109d755f6fdae6bb95e15e82696.jpg",
+    "title": "Первая карточка",
+    "subtitle": "Короткое описание первой карточки",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+    "created_at": "2026-11-01"
+  },
+  {
+    "image": "https://avatars.mds.yandex.net/i?id=ffc1262550c7daf547d26c79291d5d81_l-5247746-images-thumbs&n=13",
+    "title": "Вторая карточка",
+    "subtitle": "Короткое описание второй карточки",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+    "created_at": "2026-11-05"
+  },
+  {
+    "image": "https://cdn1.ozone.ru/s3/multimedia-c/c600/6424665408.jpg",
+    "title": "Третья карточка",
+    "subtitle": "Короткое описание третьей карточки",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+    "created_at": "2026-11-10"
+  }
+]
