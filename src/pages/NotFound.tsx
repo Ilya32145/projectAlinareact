@@ -1,3 +1,3 @@
-export function NotFound() {
-  return <h1>О нас</h1>;
+export default function NotFound() {
+  return <h1>Страница не найдена</h1>;
 }
