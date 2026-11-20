@@ -1,4 +1,6 @@
 import { Card as AntdCard } from 'antd';
+import { Icon } from './Icon';
+import { StarFilled } from '@ant-design/icons';
 
 const { Meta } = AntdCard;
 
@@ -15,7 +17,7 @@ export default function antdCard({ title, image, subtitle }: CardProps) {
     <AntdCard
       hoverable
       variant="borderless"
-      style={{ width: '70%' }}
+      style={{ width: '70%', margin: '0 auto' }}
       cover={
         <img
           draggable={false}
@@ -25,7 +27,8 @@ export default function antdCard({ title, image, subtitle }: CardProps) {
         />
       }
     >
-      <Meta title={title} description={subtitle} />
+      <Icon component={StarFilled} size={20} alt="Поиск" />
+      <Meta title={title} description={subtitle} />{' '}
     </AntdCard>
   );
 }
