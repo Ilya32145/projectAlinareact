@@ -1,18 +1,11 @@
 import { Card as AntdCard } from 'antd';
 import { Icon } from './Icon';
 import { StarFilled } from '@ant-design/icons';
+import type { Card } from '../shared/types/Card';
 
 const { Meta } = AntdCard;
 
-type CardProps = {
-  title: string;
-  image: string;
-  subtitle: string;
-  icon: string;
-  created_at: string;
-};
-
-export default function antdCard({ title, image, subtitle }: CardProps) {
+export default function antdCard({ title, image, subtitle }: Card) {
   return (
     <AntdCard
       hoverable
