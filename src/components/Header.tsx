@@ -1,5 +1,4 @@
 import { NavLink } from 'react-router-dom';
-import type { User } from './SignUpMenu';
 import Input from './Input';
 import {
   AppstoreOutlined,
@@ -9,11 +8,7 @@ import {
 } from '@ant-design/icons';
 import { SideMenu, type SideMenuItem } from './SideMenu';
 import { useState } from 'react';
-
-type HeaderProps = {
-  user?: User | null;
-  setUser?: (user: User | null) => void;
-};
+import { useAuth } from '../app/AuthContext';
 
 const items: SideMenuItem[] = [
   { key: '1', icon: <PieChartOutlined />, label: 'Option 1' },
@@ -41,12 +36,14 @@ const linkStyle = ({ isActive }: { isActive: boolean }) => ({
   textDecoration: 'none',
 });
 
-export function Header(props: HeaderProps) {
+export function Header() {
   const [key, setKey] = useState('1');
+
+  const { user, logout } = useAuth();
 
   const handleSelect = (selected: string) => {
     if (selected === 'logout') {
-      props.setUser?.(null);
+      logout();
       localStorage.removeItem('user');
       return;
     }
@@ -81,7 +78,7 @@ export function Header(props: HeaderProps) {
           defaultOpenKeys={['sub1']}
         />
 
-        <h4>Вы на аккаунте: {props.user?.username}</h4>
+        <h4>Вы на аккаунте: {user?.username}</h4>
       </div>
     </div>
   );
